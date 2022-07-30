@@ -1,0 +1,299 @@
+.container{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+header img{
+    height: 50px;
+    width: 50px;
+    margin-left: 120px;
+}
+.words{
+    display: flex;
+}
+.words p{
+    padding-right: 100px;
+}
+.location{
+    display: flex;
+    margin-right: 40px;
+}
+.location img{
+    height: 24px;
+    left: 11.56%;
+    right: 76.88%;
+    top: 38px;
+}
+.container{
+    margin: 20px;
+}
+.img {
+    margin: 57px;
+    background-image: url(./imgs/111111\ 1.jpg);
+    background-position: center;
+    width: 1327px;
+    height: 746px;
+    left: 57px;
+    top: 188px;
+}
+.texts{
+    width: 100%;
+
+}
+.text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bt{
+    height: 174px;
+    left: 4.58%;
+    right: 65.83%;
+    top: 2px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+.lt{
+    height: 160px;
+    left: 45.5%;
+    right: 7.08%;
+    top: 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+.rooms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 57px;
+}
+.brands{
+    width: 100%;
+    text-align: center;
+}
+.brands h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+}
+.brands p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.brand{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+.svipes{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./imgs/Frame.jpg);
+}
+.menu{
+    display: none;
+}
+.dota > h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    margin-left: 175px;
+}
+.dota > p{
+    color: #46856E;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    margin-left: 175px;
+}
+.icons{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.icons img{
+    margin-left: 5vh;
+}
+.icons h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+.icons p{
+    color: #AAAAAA;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.woman{
+    width: 100%;
+    background-image: url(./imgs/woman.jpg);
+    height: 800px;
+    left: -1.7%;
+    right: -1.7%;
+    top: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.middle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pic img{
+    height: 672px;
+    left: 0%;
+    right: 44.08%;
+    top: 0px;
+}
+.pic h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+}
+.pic p{
+    color: #AAAAAA;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.pics > p{
+    margin-left: 275px;
+    color: #AAAAAA;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 52px;
+}
+span{
+    color: black;
+}
+.people{
+    height: 700px;
+    background-image: url(./imgs/people.jpg);
+}
+.dni{
+     width: 80%;
+     height: 50vh;
+     background-color: #F2F2F2;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+    
+}
+.days{
+    display: flex;
+}
+.dni a{
+    background-color: #46856E;
+    border: 2px solid #46856E ;
+    text-decoration: none;
+    color: white;
+
+}
+@media(max-width: 576px){
+    header .container div{
+        display: none;
+    }
+    .menu{
+        display: inline-block;
+        margin-right: 30px;
+    }
+    .img{
+        width: 300px;
+        height: 200px;
+        background-size: cover;
+        margin: 0 auto;
+    }
+    .text{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+    }
+    .svipes{
+        width: 380px;
+        height: 180px;
+        background-size: cover;
+    }
+    .lt{
+
+        line-height: 30px;
+    }
+    .room img{
+        width: 100%;
+    }
+    .dota h1{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .pics p{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .pic{
+        text-align: center;
+    }
+    .pic img{
+        width: 100%;
+        height: 300px;
+    }
+    .woman{
+        width: 380px;
+        height: 200px;
+        background-size: cover;
+    }
+    .people{
+        width: 100%;
+        height: 180px;
+        background-size: cover;
+    }
+   
+    
+}
+
+
+
